@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#brainGrad)" opacity="0.2"/>
+  
+  <!-- Brain-like shape -->
+  <path d="M 30 35 Q 25 30, 30 25 Q 35 20, 40 25 Q 42 22, 45 20 Q 50 18, 55 20 Q 58 22, 60 25 Q 65 20, 70 25 Q 75 30, 70 35 Q 72 40, 70 45 Q 72 50, 70 55 Q 72 60, 68 65 Q 65 70, 60 68 Q 58 72, 55 75 Q 50 78, 45 75 Q 42 72, 40 68 Q 35 70, 30 65 Q 26 60, 28 55 Q 26 50, 28 45 Q 26 40, 30 35 Z" 
+        fill="url(#brainGrad)" 
+        stroke="#a855f7" 
+        stroke-width="2"/>
+  
+  <!-- Inner neural connections -->
+  <circle cx="40" cy="35" r="3" fill="#ec4899"/>
+  <circle cx="60" cy="35" r="3" fill="#ec4899"/>
+  <circle cx="50" cy="50" r="4" fill="#f97316"/>
+  <circle cx="40" cy="60" r="3" fill="#ec4899"/>
+  <circle cx="60" cy="60" r="3" fill="#ec4899"/>
+  
+  <!-- Connection lines -->
+  <line x1="40" y1="35" x2="50" y2="50" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="35" x2="50" y2="50" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  <line x1="50" y1="50" x2="40" y2="60" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  <line x1="50" y1="50" x2="60" y2="60" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Infinity symbol overlay (subtle) -->
+  <path d="M 35 48 Q 40 42, 45 48 Q 50 54, 55 48 Q 60 42, 65 48 Q 60 54, 55 48 Q 50 42, 45 48 Q 40 54, 35 48 Z" 
+        fill="none" 
+        stroke="#f97316" 
+        stroke-width="2" 
+        opacity="0.4"/>
+</svg>
